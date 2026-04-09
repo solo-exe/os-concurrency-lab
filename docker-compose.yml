@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  simulation:
+    build: .
+    volumes:
+      - ./outputs:/app/outputs
+    environment:
+      - PYTHONUNBUFFERED=1

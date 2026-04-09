@@ -1,0 +1,5 @@
+outputs/
+venv/
+.DS_Store
+OS Publication.docx
+init.txt
